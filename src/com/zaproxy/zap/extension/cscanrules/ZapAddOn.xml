@@ -1,0 +1,24 @@
+<zapaddon>
+	<name>Custom Active scanner rules</name>
+	<version>27</version>
+	<status>release</status>
+	<description>The release quality Custom Active Scanner rules</description>
+	<author>cool</author>
+	<url/>
+	<changes>
+	<![CDATA[
+	Lets see this..
+	]]>
+    </changes>
+	<extensions>
+		<extension>org.zaproxy.zap.extension.cscanrules.ExtensionAscanRules</extension>
+	</extensions>
+	<ascanrules>
+		<ascanrule>org.zaproxy.zap.extension.cscanrules.CustomPayloadsFromFile</ascanrule>
+	</ascanrules>
+	<pscanrules/>
+	<filters/>
+	<files/>
+	<not-before-version>2.4.1</not-before-version>
+	<not-from-version/>
+</zapaddon>
